@@ -27,7 +27,7 @@ const services = [
     title: "Acompanhamento de Obras",
     desc: "Registros aéreos periódicos que documentam cada fase do canteiro.",
     media: "video" as const,
-    cover: "public/image/ac_obra.jpg", //image do card
+    cover: "/image/ac_obra.jpg", //image do card
     content: "/videos/acompanhamento_obra.mp4", // vídeo do modal
     accent: "primary" as const,
   },
@@ -36,7 +36,7 @@ const services = [
     title: "Inspeção Predial",
     desc: "Vistorias em fachadas, telhados e estruturas de difícil acesso.",
     media: "photo" as const,
-    cover: "public/image/inspecao.jpg", //image do card
+    cover: "/image/inspecao.jpg", //image do card
     content: "/image/obras.jpg", //image do modal
     accent: "neon" as const,
   },
@@ -45,8 +45,8 @@ const services = [
     title: "Vídeos Cinematográficos",
     desc: "Direção aérea para imóveis, eventos e marcas em padrão de estúdio.",
     media: "video" as const,
-    cover: "public/image/cinematografica_drone.jpg", //image do card
-    content: "public/videos/cinema.MOV", // vídeo do modal
+    cover: "/image/cinematografica_drone.jpg", //image do card
+    content: "/videos/cinema.MOV", // vídeo do modal
     accent: "primary" as const,
   },
   {
@@ -55,8 +55,8 @@ const services = [
     title: "Eventos",
     desc: "Vídeos curtos de alto impacto para anúncios e redes sociais.",
     media: "video" as const,
-    cover: "public/image/eventos.jpg", //image do card
-    content: "public/videos/eventos.MOV", // vídeo do modal
+    cover: "/image/eventos.jpg", //image do card
+    content: "/videos/eventos.MOV", // vídeo do modal
     accent: "neon" as const,
   },
   {
@@ -64,7 +64,7 @@ const services = [
     title: "Mapeamento & 360°",
     desc: "Ortomosaicos, medições e tours imersivos para engenharia.",
     media: "photo" as const,
-    cover: "public/image/obras.jpg", //image do card
+    cover: "/image/obras.jpg", //image do card
     content: "/image/obras.jpg", //image do modal
     accent: "neon" as const,
   },
@@ -76,12 +76,12 @@ const projects = [
   { tag: "Eventos", 
     title: "Quadrilha Junina", 
     meta: "FESTIVAL",
-    image: "public/image/quadrilha.jpg",
+    image: "/image/quadrilha.jpg",
   },
   { tag: "Inspeção", 
     title: "Fachada Corporativa ", 
     meta: "4K • 30fps",
-    image: "public/image/fachada.jpg", 
+    image: "/image/fachada.jpg", 
   },
   { tag: "Cinema", 
     title: "Campanha Ceará Litoral", 
@@ -91,12 +91,12 @@ const projects = [
   { tag: "Mapeamento", 
     title: "Loteamento", 
     meta: "4K • 30fps",
-    image: "public/image/loteamento.jpg",
+    image: "/image/loteamento.jpg",
   },
   { tag: "Evento", 
     title: "Kite Surf",
     meta: "4K • 30fps",
-    image: "public/image/kite_scholl.jpg",
+    image: "/image/kite_scholl.jpg",
   },
   { tag: "Inspeção",
     title: "Em Construção",
