@@ -386,7 +386,7 @@ function Portfolio() {
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 overflow-hidden rounded-md border border-border bg-surface">
               <img
-                src="public/image/logo.png"
+                src="/image/logo.png"
                 alt="Drone"
                 className="h-full w-full object-cover scale-400"
                 />
