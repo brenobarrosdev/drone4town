@@ -32,12 +32,12 @@ const services = [
     accent: "primary" as const,
   },
   {
-    tag: "02 · Inspeção",
-    title: "Inspeção Predial",
-    desc: "Vistorias em fachadas, telhados e estruturas de difícil acesso.",
+    tag: "02 · Fachada",
+    title: "Fachada Comercial",
+    desc: "Fotos e filmagens de fachadas, telhados e estruturas de difícil acesso.",
     media: "photo" as const,
-    cover: "/image/inspecao.jpg", //image do card
-    content: "/image/obras.jpg", //image do modal
+    cover: "/image/fachada00.jpg", //image do card
+    content: "/image/fachada01.jpg", //image do modal
     accent: "neon" as const,
   },
   {
@@ -73,15 +73,15 @@ const services = [
 type Service = (typeof services)[number];
 
 const projects = [
+  { tag: "Fachada", 
+    title: "Fachada Corporativa ", 
+    meta: "4K • 30fps",
+    image: "/image/fachada00.jpg", 
+  },
   { tag: "Eventos", 
     title: "Quadrilha Junina", 
     meta: "FESTIVAL",
     image: "/image/quadrilha.jpg",
-  },
-  { tag: "Inspeção", 
-    title: "Fachada Corporativa ", 
-    meta: "4K • 30fps",
-    image: "/image/fachada.jpg", 
   },
   { tag: "Cinema", 
     title: "Campanha Ceará Litoral", 
@@ -159,7 +159,7 @@ function Portfolio() {
               <span className="text-primary">alto<span className="text-neon">.</span></span>
             </h1>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
-              Serviços de drone em Fortaleza/CE — Acompanhamento de obras, inspeção predial e vídeos cinematográficos.
+              Serviços de drone em Fortaleza/CE — Acompanhamento de obras e vídeos cinematográficos.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a
@@ -265,8 +265,7 @@ function Portfolio() {
           Por trás <br /> do <span className="text-primary">controle</span>.
         </h2>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          Piloto certificado ANAC, com base em Fortaleza/CE. Equipamento DJI Mini 4 Pro, e
-          autorização SARPAS para operações urbanas e litorâneas.
+          Piloto certificado ANAC, com base em Fortaleza/CE. Equipamento DJI Mini 4 Pro.
         </p>
         <ul className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {[
@@ -301,7 +300,7 @@ function Portfolio() {
               </p>
 
               <div className="mt-10 space-y-5 text-sm">
-                <a href="tel:+5585999990000" className="group flex items-center gap-4">
+                <a href="tel:+5585989148842" className="group flex items-center gap-4">
                   <div className="grid h-11 w-11 place-items-center rounded-md border border-border transition group-hover:border-neon group-hover:text-neon">
                     <Phone className="h-4 w-4" />
                   </div>
@@ -329,7 +328,7 @@ function Portfolio() {
                   </div>
                 </div>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/drone4town/"
                   target="_blank"
                   rel="noreferrer"
                   className="group flex items-center gap-4"
@@ -362,7 +361,7 @@ function Portfolio() {
                   <label className="mb-2 block font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Tipo de serviço</label>
                   <select className="w-full rounded-md border border-border bg-background px-4 py-3 text-sm outline-none transition focus:border-primary">
                     <option>Acompanhamento de obra</option>
-                    <option>Inspeção predial</option>
+                    <option>Fachada</option>
                     <option>Vídeo cinematográfico</option>
                     <option>Mapeamento / 360°</option>
                   </select>
